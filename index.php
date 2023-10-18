@@ -3,7 +3,7 @@
 include 'class/SearchName.php';
 include 'class/Fibonacci.php';
 
-SearchName::search((new SearchName('ADSEDFMDLNLS'))->result, (new SearchName('KEYWORDKEYWO'))->result);
+print SearchName::search((new SearchName('KEYWORDKEYWZ'))->result, (new SearchName('ADSEDFUDXNLD'))->result);
 
 echo '<br>';
 

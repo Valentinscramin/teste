@@ -28,6 +28,7 @@ class SearchName
         for ($i = 0; $i < count($varOne); $i++) {
             $string .= $alphabet[count($alphabet) - abs($varOne[$i] - $varTwo[$i]) - 1];
         }
-        var_dump($string);
+
+        return $string;
     }
 }

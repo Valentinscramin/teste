@@ -1,2 +1,4 @@
 /vendor/
 teste2
+/log
+.phpunit.result.cache
