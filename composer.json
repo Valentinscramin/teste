@@ -1,0 +1,17 @@
+{
+    "name": "valen/teste",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Valen\\Teste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "valentin"
+        }
+    ],
+    "require": {}
+}
